@@ -1,0 +1,30 @@
+<!doctype html>
+<!-- Stüdyo ana sayfası. App Store "Pazarlama URL'si" buraya verilir; AdMob app-ads.txt'yi bu alan adının kökünde arar. Yeni oyunlar listeye eklenir. -->
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>İsmet Kaan Gayretli</title>
+<style>
+  :root { --krem:#FFF1DE; --murdum:#2B2340; --kart:#FFFBF5; --cizgi:#E8D9C4; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--krem); color:var(--murdum); font:17px/1.6 ui-rounded,"SF Pro Rounded","Segoe UI",system-ui,-apple-system,sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:40px 16px; }
+  h1 { font-size:30px; margin:0 0 4px; }
+  a.oyun { display:flex; align-items:center; gap:14px; margin-top:20px; padding:16px; background:var(--kart); border:2px solid var(--cizgi); border-radius:20px; color:var(--murdum); text-decoration:none; }
+  .balon { flex:none; width:52px; height:52px; border-radius:50% 50% 46% 46%; background:radial-gradient(circle at 35% 30%,#fff8 0 14%,transparent 15%),#FF3B3B; }
+  .ad { font-weight:800; font-size:19px; }
+  .alt { opacity:.75; font-size:15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>İsmet Kaan Gayretli</h1>
+  <p>Küçük, dokunsal mobil oyunlar. · Small, tactile mobile games.</p>
+  <a class="oyun" href="balon-ustasi/">
+    <span class="balon" aria-hidden="true"></span>
+    <span><span class="ad">Balon Ustası · Balloon Artist</span><br><span class="alt">Destek, gizlilik · Support, privacy</span></span>
+  </a>
+</main>
+</body>
+</html>
